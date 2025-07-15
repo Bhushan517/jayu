@@ -40,7 +40,7 @@ const Hero = () => {
               initial={{ scale: 0 }}
               animate={{ scale: 1, opacity: isHovered ? 0 : 1 }}
               transition={{ scale: { duration: 0.8, delay: 0.2 }, opacity: { duration: 1.5, ease: "easeInOut" } }}
-              src="/jayashree.jpg"
+              src="/jayshree.jpg"
               alt="Profile"
               className="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-blue-400 shadow-2xl mx-auto mb-6 cursor-pointer object-cover object-center"
               onMouseEnter={() => setIsHovered(true)}
@@ -62,7 +62,7 @@ const Hero = () => {
         >
           Hi, I'm{" "}
           <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-            Jayashree Padekar
+            Jayshree Padekar
           </span>
         </motion.h1>
 

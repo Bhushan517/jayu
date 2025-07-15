@@ -62,7 +62,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-gray-400 mb-4">
-              &copy; {new Date().getFullYear()} Jayashree Padekar. All rights reserved.
+              &copy; {new Date().getFullYear()} Jayshree Padekar. All rights reserved.
             </p>
           </div>
         </div>
